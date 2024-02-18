@@ -9,3 +9,28 @@
   height: 100vh;
   background: #ced8ff;
 }
+.container p {
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: "Times New Roman", Times, serif;
+}
+.container p::first-letter {
+  text-transform: capitalize;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.dark {
+  background: #4f4e4e;
+}
+.dark p {
+  background-color: #000;
+  color: #fff;
+}
+.light p {
+  background: #fff;
+}

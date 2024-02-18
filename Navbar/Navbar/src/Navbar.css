@@ -6,6 +6,20 @@
   justify-content: space-between;
   padding: 15px 7%;
 }
+.dark .navbar {
+  background: #000;
+  color: white;
+}
+.dark .search-box {
+  background: #fff;
+}
+.dark .search-box input {
+  color: #000;
+}
+.dark .search-box input::placeholder {
+  color: #000;
+}
+
 .logo {
   width: 160px;
   cursor: pointer;
